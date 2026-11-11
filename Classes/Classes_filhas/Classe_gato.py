@@ -4,4 +4,4 @@ class Gato(Animal):
         super().__init__(nome, idade, especie)
 
     def miar(self):
-        print(f"{self.nome} miou: Au au!")
+        print(f"{self.nome} miou: Miau miau!")
