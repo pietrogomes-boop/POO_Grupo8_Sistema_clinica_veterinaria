@@ -1,8 +1,9 @@
 class Animal:
-    def __init__(self, nome, idade, especie):
+    def __init__(self, nome, idade, especie, peso):
         self.nome = nome
         self.__idade = idade
         self.__especie = especie
+        self.peso = peso
 
     @property
     def idade(self):
