@@ -1,4 +1,5 @@
 class Animal:
+    """definir qualquer animal e sua caracteristicas"""
     def __init__(self, nome, idade, especie, peso):
         self.nome = nome
         self.__idade = idade
