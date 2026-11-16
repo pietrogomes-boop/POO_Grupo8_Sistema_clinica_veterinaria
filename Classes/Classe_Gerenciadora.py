@@ -1,4 +1,5 @@
 class Clinica:
+    """essa clase defini as caracteristicas e especificacoes da clinica veterinaria"""
     def __init__(self):
         self.__animais = []
 
