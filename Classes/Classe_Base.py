@@ -24,4 +24,4 @@ class Animal:
         return "Som não identificado"
 
     def __str__(self):
-        return f"Nome: {self.nome} / Idade: {self.idade} / Espécie: {self.especie}"
+        return f"Nome: {self.nome} / Idade: {self.idade} / Espécie: {self.especie} / Peso: {self.peso} kg"

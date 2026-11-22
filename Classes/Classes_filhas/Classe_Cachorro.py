@@ -5,5 +5,5 @@ class Cachorro(Animal):
         super().__init__(nome, idade, especie, peso)
 
 
-    def latir(self):
-        print(f"{self.nome} latiu: Au au!")
+    def emitir_som(self):
+        return "Au au!"

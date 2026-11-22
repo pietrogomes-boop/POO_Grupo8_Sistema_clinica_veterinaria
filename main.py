@@ -6,7 +6,7 @@ from Classes.Classes_filhas.Classe_gato import Gato
 from Classes.Classes_filhas.Classe_Passaro import Passaro
 
 
-# Criando a clínica
+
 clinica = Clinica()
 
 continuar = True
@@ -27,7 +27,7 @@ while continuar:
 
     match opcao:
 
-        # CADASTRAR ANIMAL
+
         case "1":
 
             print("\n  ---------------------")
@@ -71,31 +71,31 @@ while continuar:
                 case _:
                     print("Espécie inválida!")
 
-        # LISTAR ANIMAIS
+
         case "2":
 
             clinica.listar_animais()
 
-        # BUSCAR ANIMAL
+
         case "3":
 
             nome = input("\nInforme o nome do animal que deseja buscar: ")
 
             clinica.buscar_animal(nome)
 
-        # EMITIR SONS (POLIMORFISMO)
+
         case "4":
 
             print("\n===== SONS DOS ANIMAIS =====")
             clinica.emitir_sons()
 
-        # SAIR
+
         case "0":
 
             print("\nEncerrando programa!")
             continuar = False
 
-        # OPÇÃO INVÁLIDA
+
         case _:
 
             print("\nOpção inválida!")

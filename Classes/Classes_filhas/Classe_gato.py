@@ -4,5 +4,5 @@ class Gato(Animal):
     def __init__(self, nome, idade, especie,peso):
         super().__init__(nome, idade, especie,peso)
 
-    def miar(self):
-        print(f"{self.nome} miou: Miau miau!")
+    def emitir_som(self):
+        return "Miau miau!"
